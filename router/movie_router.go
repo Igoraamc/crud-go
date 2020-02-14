@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	. "../config/dao/"
-	. "../models/"
+	. "github.com/Igoraamc/crud-go/config/dao"
+	. "github.com/Igoraamc/crud-go/models"
 	"github.com/gorilla/mux"
 	"gopkg.in/mgo.v2/bson"
 )

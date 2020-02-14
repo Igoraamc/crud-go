@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	. "./config"
-	. "./config/dao"
-	movierouter "./router"
+	. "github.com/Igoraamc/crud-go/config"
+	. "github.com/Igoraamc/crud-go/config/dao"
+	movierouter "github.com/Igoraamc/crud-go/router"
 	"github.com/gorilla/mux"
 )
 
